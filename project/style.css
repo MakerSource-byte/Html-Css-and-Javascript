@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: black;
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Center items vertically */
+}
+
+nav h1{
+    font-size: 50px;
+    margin-right: 20px;
+}
+
+nav img {
+    height: 150px;
+    width: 150px;
+    display: inline-block; /* Ensure image is inline */
+}
+
+nav span {
+    display: inline-block; /* Ensure span is inline */
+    
+}
+nav div{
+    margin-left: auto;
+    margin-right: 30px;
+}
+nav div span a {
+    color: white;
+    text-decoration: none; 
+    font-size: 14px;
+    padding: 10px;
+    font-family: Tahoma;
+    font-weight: 500; /* Fixed this line; use number instead of 'px' */
+    letter-spacing: 2px;
+}
+
+h1{
+    color: white;
+}
+

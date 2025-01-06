@@ -1,0 +1,29 @@
+@keyframes change-color {
+    from {
+        color: purple;
+        font-size: 25px;
+    }
+    25%{
+        color: red;
+        font-size: 35px;
+    }
+    50%{
+        color: blue;
+        font-size: 15px;
+    }
+    75%{
+        color: green;
+        font-size: 25px;
+    }
+    to {
+        color: orange;
+        font-size: 35px;
+    }
+}
+
+h1{
+    color: purple;
+    font-size: 25px;
+    animation-name: change-color;
+    animation-duration: 5s;
+}
